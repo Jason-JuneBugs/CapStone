@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cohorts renders Cohorts correctly 1`] = `
+<div
+  className="w-full min-h-full bg-grey-light pb-14"
+>
+  <div
+    className="w-full border-b-2 border-black"
+  >
+    <div
+      className="w-full h-12 bg-grey-lighter text-black text-3xl font-semibold pt-11 pb-9 px-12 flex items-center justify-between"
+    >
+      <h1
+        className="ml-4"
+      >
+        COHORTS
+      </h1>
+      <div
+        className="text-sm flex space-x-4 mr-4"
+      >
+        <button
+          className="rounded border-black border bg-blue-light text-black px-10 py-2"
+          onClick={[Function]}
+        >
+          Active
+        </button>
+        <button
+          className="rounded bg-blue-md text-black px-10 py-2"
+          onClick={[Function]}
+        >
+          Inactive
+        </button>
+        <button
+          className="rounded bg-blue-md text-black px-10 py-2"
+          onClick={[Function]}
+        >
+          All
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="mx-auto max-w-screen-md mt-10 pb-5"
+  >
+    <div
+      className="grid grid-cols-1 sm:grid-cols-2 gap-3"
+    />
+  </div>
+</div>
+`;
